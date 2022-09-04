@@ -4,7 +4,7 @@ public class Demo {
       
 	public static void main(String[] args) {
 		//answer no1.
-		/*
+		
 		Company myCompany=new Company();
 		myCompany.setName("myCompany");
 		myCompany.setNumberOfEmployees(300);
@@ -20,9 +20,9 @@ public class Demo {
         System.out.println(myCompany.getExpenses());
         System.out.println(myCompany.getCompanySize()); 
         System.out.println(myCompany.getProfit());
-        }
-}
-*/
+        
+
+
 
 		//answer no.2
 		/*

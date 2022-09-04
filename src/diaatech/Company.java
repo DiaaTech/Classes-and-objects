@@ -54,12 +54,7 @@ public class Company {
 		return Profit;
 	}
 	public void setProfit(double profit) {
-		if(profit >= 0) {
-		Profit = revenue-expenses;
-		}
-		else {
-			profit = expenses-revenue;
-		}
+		this.Profit = revenue-expenses;
 	}
 
 	
