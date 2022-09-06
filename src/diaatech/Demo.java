@@ -8,7 +8,7 @@ public class Demo {
 		Company myCompany=new Company();
 		myCompany.setName("myCompany");
 		myCompany.setNumberOfEmployees(300);
-		myCompany.setRevenue(100);
+		myCompany.setRevenue(500);
 		myCompany.setExpenses(200);
 		myCompany.setCompanySize("large");
 		myCompany.setProfit(0);
@@ -22,7 +22,7 @@ public class Demo {
         System.out.println(myCompany.getProfit());
         
          
-
+/*
 		//answer no.2,Person
 		
 		Person myPerson = new Person();
@@ -94,7 +94,7 @@ public class Demo {
 		 System.out.println(myCalculator.getSubtract());
 		 System.out.println(myCalculator.getPower());
 		 System.out.println(myCalculator.getReset());
-		 
+		*/ 
 	}
 }
 

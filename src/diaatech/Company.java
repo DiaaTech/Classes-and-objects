@@ -45,11 +45,8 @@ public class Company {
 		}
 		else {
 			CompanySize = "large";	
-			
-		}
-		
-	
-	}
+			}
+			}
 	public double getProfit() {
 		return Profit;
 	}
@@ -60,14 +57,7 @@ public class Company {
 		else {
 			this.Profit = expenses;
 		}
+		
 	}
 
-	
-	
-
-	
-
-	
-	
-	
-}
+	}
