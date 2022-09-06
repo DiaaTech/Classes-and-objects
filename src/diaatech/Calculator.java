@@ -2,13 +2,13 @@ package diaatech;
 
 public class Calculator {
 	// Your code here
-	public int Add;
-	public int multiply;
-	public int subtract;
-	public int power;
-	public int reset;
-	int x;
-	int y;
+	private int Add;
+	private int multiply;
+	private int subtract;
+	private int power;
+	private int reset;
+	private int x;
+	private int y;
 
 
 	public int getAdd() {

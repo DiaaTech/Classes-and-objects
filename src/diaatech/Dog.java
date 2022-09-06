@@ -3,8 +3,8 @@ package diaatech;
 public class Dog {
 // Your code here
 	private boolean sleeping;
-	public String MakeSound;
-	public boolean wakeUp;
+	private String MakeSound;
+	private boolean wakeUp;
 	
 	public boolean getWakeUp() {
 		return wakeUp;

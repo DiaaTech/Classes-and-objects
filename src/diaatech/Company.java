@@ -6,8 +6,8 @@ public class Company {
 	private int numberOfEmployees;
 	private double revenue;
 	private double expenses;
-	public String CompanySize;
-	public double Profit;
+	private String CompanySize;
+	private double Profit;
 	
 	public String getName() {
 		return name;
