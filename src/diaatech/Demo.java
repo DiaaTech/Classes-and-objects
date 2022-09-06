@@ -5,7 +5,7 @@ public class Demo {
 	public static void main(String[] args) {
 		//answer no.1,Company
 		
-		/*Company myCompany=new Company();
+		Company myCompany=new Company();
 		myCompany.setName("myCompany");
 		myCompany.setNumberOfEmployees(300);
 		myCompany.setRevenue(100);
@@ -20,11 +20,11 @@ public class Demo {
         System.out.println(myCompany.getExpenses());
         System.out.println(myCompany.getCompanySize()); 
         System.out.println(myCompany.getProfit());
-        */
+        
          
 
 		//answer no.2,Person
-		/*
+		
 		Person myPerson = new Person();
 		myPerson.setFullName("");
 		myPerson.setFirstName("khaled");
@@ -38,8 +38,7 @@ public class Demo {
 		 System.out.println(myPerson.getlastName());
 		 System.out.println(myPerson.getAge());
 		 System.out.println(myPerson.getisAdult());
-          */
-		/*
+         
 		// answer no.3,Product
 		
 		Product myProduct = new Product();
@@ -77,7 +76,7 @@ public class Demo {
 		 System.out.println(myShoppingCart.getGetAveragePricePerItem());
 		 System.out.println(myShoppingCart.getAddItems(5,6));
 		 System.out.println(myShoppingCart.getEmpty());
-		 */
+		 
 		 
 		//answer no.6,Calculator
 		
