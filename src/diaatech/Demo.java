@@ -3,13 +3,13 @@ package diaatech;
 public class Demo {
       
 	public static void main(String[] args) {
-		//answer no1.
+		//answer no.1,Company
 		
 		Company myCompany=new Company();
 		myCompany.setName("myCompany");
 		myCompany.setNumberOfEmployees(300);
 		myCompany.setRevenue(100);
-		myCompany.setExpenses(20);
+		myCompany.setExpenses(200);
 		myCompany.setCompanySize("large");
 		myCompany.setProfit(0);
 	
@@ -20,16 +20,14 @@ public class Demo {
         System.out.println(myCompany.getExpenses());
         System.out.println(myCompany.getCompanySize()); 
         System.out.println(myCompany.getProfit());
-        
+         
 
-
-
-		//answer no.2
-		/*
+		//answer no.2,Person
+		
 		Person myPerson = new Person();
-		myPerson.setFullName("FullName");
+		myPerson.setFullName("");
 		myPerson.setFirstName("khaled");
-		myPerson.setlastName("Anwar");
+		myPerson.setlastName("anwar");
 		myPerson.setAge(25);
 		myPerson.setisAdult(true);
 		
@@ -39,11 +37,10 @@ public class Demo {
 		 System.out.println(myPerson.getlastName());
 		 System.out.println(myPerson.getAge());
 		 System.out.println(myPerson.getisAdult());
-	*/
-
+          
 		
-		// answer 3.
-		/*
+		// answer no.3,Product
+		
 		Product myProduct = new Product();
 		myProduct.setName("khaled");
 		myProduct.setPrice(20.00);
@@ -52,36 +49,52 @@ public class Demo {
 		 System.out.println(myProduct.getName());
 		 System.out.println(myProduct.getPrice());
 		 System.out.println(myProduct.getWeightInOunces());
-		 */
-		//answer no.4
-		/*
+		 
+		//answer no.4,Dog
+		
 		Dog myDog = new Dog();
 		myDog.setSleeping(true);
-		myDog.setMakeSound("sleeping");
+		myDog.setMakeSound("");
 		myDog.setWakeUp(false);
 		
 		 System.out.println(myDog.getMakeSound());
 		 System.out.println(myDog.isSleeping());
 		 System.out.println(myDog.getWakeUp());
-		 */
-		//answer 5.
-		/*
+		 
+		//answer no.5,ShoppingCart
+		
 		ShoppingCart  myShoppingCart = new ShoppingCart();
 		
 		myShoppingCart.setTotalAmountOwed(80.00);
-		myShoppingCart.setTotalNumberOfItems(20);
+		myShoppingCart.setTotalNumberOfItems(40);
 		myShoppingCart.setGetAveragePricePerItem(2);
+		myShoppingCart.setAddItems(5, 5);
+		myShoppingCart.setEmpty(0);
 	
 		 System.out.println(myShoppingCart.getTotalAmountOwed());
 		 System.out.println(myShoppingCart.getTotalNumberOfItems());
 		 System.out.println(myShoppingCart.getGetAveragePricePerItem());
-		//answer 6.
-		/*
-		Calculator myCalculator=new Calculator();
-		myCalculator.setCurrentValue(0);
+		 System.out.println(myShoppingCart.getAddItems(5,6));
+		 System.out.println(myShoppingCart.getEmpty());
+		 
+		 
+		//answer no.6,Calculator
 		
-		 System.out.println(myCalculator.getCurrentValue());
-		*/
+		Calculator myCalculator=new Calculator();
+		myCalculator.setX(2);
+		myCalculator.setY(4);
+		myCalculator.setAdd(0);
+		myCalculator.setMultiply(0);
+		myCalculator.setSubtract(0);
+		myCalculator.setPower(0);
+		myCalculator.setReset(0);
+		
+		 System.out.println(myCalculator.getAdd());
+		 System.out.println(myCalculator.getMultiply());
+		 System.out.println(myCalculator.getSubtract());
+		 System.out.println(myCalculator.getPower());
+		 System.out.println(myCalculator.getReset());
+		 
 	}
 }
 

@@ -28,12 +28,13 @@ public class Dog {
 		return MakeSound;
 	}
 	public void setMakeSound(String makeSound) {
-		if(sleeping) {
+		if(sleeping ) {
 		this.MakeSound = "zzzzzz......";
 		}
 		else {
 			this.MakeSound = "Woof!";
 		}
+		
 	}
 	
 	

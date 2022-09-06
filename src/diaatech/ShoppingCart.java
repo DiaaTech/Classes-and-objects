@@ -1,20 +1,25 @@
 package diaatech;
-
+import java.io.*;
+import java.util.*;
 public class ShoppingCart {
 	// Your code here
 	private int totalNumberOfItems;
 	private double totalAmountOwed;
     private double getAveragePricePerItem;
-    private double addItems;
     private double empty;
+    private double addItems;
+   
+    public void setAddItems(int numberOfItems, double pricePerItem) {
+    	 List<Integer> list = new ArrayList<Integer>();
+   	     list.add(0);
+    	  this.addItems =(totalNumberOfItems + (pricePerItem * numberOfItems));
+    	 
+    }
     
-	public double getAddItems() {
+	public double getAddItems(int numberOfItems, double pricePerItem) {
 		return addItems;
 	}
-	public void setAddItems(double addItems) {
-		
-		this.addItems = addItems;
-	}
+
 	public double getEmpty() {
 		return empty;
 	}

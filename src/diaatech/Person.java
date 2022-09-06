@@ -15,7 +15,11 @@ public class Person {
 		}
 	public void setFullName(String fullName) {
 		
-		this.FullName="lastName" + ", " + "firstName";
+         fullName = "Juan Perez";
+		 firstName = fullName.substring(0, fullName.indexOf(" "));
+		 lastName = fullName.substring(fullName.indexOf(" ") + 1);
+	      
+		this.FullName= lastName + ", " + firstName  ;
       }
 	public boolean getisAdult() {
 		return isAdult;
