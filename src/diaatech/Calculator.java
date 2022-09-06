@@ -16,7 +16,7 @@ public class Calculator {
 	}
 
 	public void setAdd(int addend) {
-		Add = x+y;
+		this.Add = x+y;
 	}
 
 	public int getX() {
