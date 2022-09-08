@@ -5,7 +5,7 @@ public class ShoppingCart {
 	// Your code here
 	private int totalNumberOfItems;
 	private double totalAmountOwed;
-	public double  getGetAveragePricePerItem;
+	private double  getGetAveragePricePerItem;
     private double empty;
     private double addItems;
 	private int numberOfItems;
