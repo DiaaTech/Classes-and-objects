@@ -5,22 +5,15 @@ public class Person {
 	private String firstName;
 	private String lastName;
 	private int age;
-	private String FullName;
+	private String getfullName;
 	private boolean isAdult;
 		
 
 	
 	public String getFullName() {
-		return FullName;
+		return getfullName=lastName + ", " + firstName;
 		}
-	public void setFullName(String fullName) {
-		
-         fullName = "Juan Perez";
-		 firstName = fullName.substring(0, fullName.indexOf(" "));
-		 lastName = fullName.substring(fullName.indexOf(" ") + 1);
-	      
-		this.FullName= lastName + ", " + firstName  ;
-      }
+	
 	public boolean getisAdult() {
 		return isAdult;
 	}

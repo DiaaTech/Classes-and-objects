@@ -5,27 +5,11 @@ public class ShoppingCart {
 	// Your code here
 	private int totalNumberOfItems;
 	private double totalAmountOwed;
-    private double getAveragePricePerItem;
+	public double  getGetAveragePricePerItem;
     private double empty;
     private double addItems;
-   
-    public void setAddItems(int numberOfItems, double pricePerItem) {
-    	 List<Integer> list = new ArrayList<Integer>();
-   	     list.add(0);
-    	  this.addItems =(totalNumberOfItems + (pricePerItem * numberOfItems));
-    	 
-    }
-    
-	public double getAddItems(int numberOfItems, double pricePerItem) {
-		return addItems;
-	}
-
-	public double getEmpty() {
-		return empty;
-	}
-	public void setEmpty(double empty) {
-		this.empty = empty;
-	}
+	private int numberOfItems;
+	int pricePerItem;
 	public int getTotalNumberOfItems() {
 		return totalNumberOfItems;
 	}
@@ -39,11 +23,47 @@ public class ShoppingCart {
 		this.totalAmountOwed = totalAmountOwed;
 	}
 	public double getGetAveragePricePerItem() {
-		return getAveragePricePerItem;
+		return getGetAveragePricePerItem;
 	}
-	public void setGetAveragePricePerItem(double getAveragePricePerItem) {
-		this.getAveragePricePerItem = totalAmountOwed / totalNumberOfItems;
+	public void setGetAveragePricePerItem(double getGetAveragePricePerItem) {
+		this.getGetAveragePricePerItem = totalAmountOwed / totalNumberOfItems;
 	}
+	public double getEmpty() {
+		return empty;
+	}
+	public void setEmpty(double empty) {
+		this.empty = empty;
+	}
+	
+	public void setAddItems(int numberOfItems, double pricePerItem) {	
+		this.addItems = totalNumberOfItems + (pricePerItem * numberOfItems);
+		
+	}
+	public double getAddItems() {
+		return addItems;
+	}
+	
+	public int getNumberOfItems() {
+		return numberOfItems;
+	}
+	public void setNumberOfItems(int numberOfItems) {
+		this.numberOfItems = numberOfItems;
+	}
+	public int getPricePerItem() {
+		return pricePerItem;
+	}
+	public void setPricePerItem(int pricePerItem) {
+		this.pricePerItem = pricePerItem;
+	}
+	
+	
+
+	
+	
+	
+
+
+
     
 }
 
