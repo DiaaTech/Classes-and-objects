@@ -26,6 +26,7 @@ public class Demo {
 		//answer no.2,Person
 		/*
 		Person myPerson = new Person();
+		
 		myPerson.setFirstName("david");
 		myPerson.setlastName("beckham");
 		myPerson.setAge(48);
@@ -61,7 +62,7 @@ public class Demo {
 		 System.out.println(myDog.getWakeUp());
 		 */
 		//answer no.5,ShoppingCart
-		
+		/*
 		ShoppingCart  myShoppingCart = new ShoppingCart();
 		
 		myShoppingCart.setTotalAmountOwed(10);
@@ -76,7 +77,7 @@ public class Demo {
 		 System.out.println(myShoppingCart.getGetAveragePricePerItem());
 		 System.out.println(myShoppingCart.getAddItems());
 		 System.out.println(myShoppingCart.getEmpty());
-		
+		*/
 		//answer no.6,Calculator
 		/*
 		Calculator myCalculator=new Calculator();

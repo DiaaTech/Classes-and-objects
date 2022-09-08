@@ -8,9 +8,7 @@ public class Person {
 	private String getfullName;
 	private boolean isAdult;
 		
-
-	
-	public String getFullName() {
+    public String getFullName() {
 		return getfullName=lastName + ", " + firstName;
 		}
 	
